@@ -1,28 +1,28 @@
 class Ecluse < Formula
   desc "Per-worktree isolation for AI agentic engineering and multi-session development"
   homepage "https://github.com/hefgi/ecluse"
-  version "0.1.0"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/hefgi/ecluse/releases/download/v0.1.0/ecluse-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "3aa138f65cd41d3d5a83c85be79b2a1ca99526936a917f1015c6adefe494cf43"
+      url "https://github.com/hefgi/ecluse/releases/download/v0.2.0/ecluse-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "80f8ad1d7487c97aa613c29597000b2c2f8ffcb500d14a65815047bdb8794d19"
     end
     on_intel do
-      url "https://github.com/hefgi/ecluse/releases/download/v0.1.0/ecluse-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "393056791dcecb6d710aa383d7e2395b459bfdc9f600938e12d20fef04beac0f"
+      url "https://github.com/hefgi/ecluse/releases/download/v0.2.0/ecluse-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "04ccba15e2faa69a71ec10f7b9c6bb75bdc98609d7032faca130146e79a0cf23"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hefgi/ecluse/releases/download/v0.1.0/ecluse-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c93080863750512a101f393975e48823a34da7d516d809c885d66d4956068117"
+      url "https://github.com/hefgi/ecluse/releases/download/v0.2.0/ecluse-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "61c0322b0ba75348817dfe6da9a69f43a7098b8cb5a1aa4ea39614bf14019ddb"
     end
     on_intel do
-      url "https://github.com/hefgi/ecluse/releases/download/v0.1.0/ecluse-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "a8a09c22e2fd58052c600acef31681e514e51eac7e64c9d249c918652e3e71f3"
+      url "https://github.com/hefgi/ecluse/releases/download/v0.2.0/ecluse-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "81bef6ad13b727d2b03353f2d6386b8d454cdb7e163f1fd3f6067d577e69e490"
     end
   end
 
