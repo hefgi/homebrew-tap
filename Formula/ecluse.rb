@@ -7,22 +7,22 @@ class Ecluse < Formula
   on_macos do
     on_arm do
       url "https://github.com/hefgi/ecluse/releases/download/v0.2.2/ecluse-v0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "1425300030082b18497e8c95ecc32449bf9ebdd89e64907ca83eac83af7231da"
+      sha256 "1955d06115172da76a8466574bfa80e69c910379624512ce28aede40931c852d"
     end
     on_intel do
       url "https://github.com/hefgi/ecluse/releases/download/v0.2.2/ecluse-v0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "e232002b3479e8fff1cd3feafcbaee3f3920fdaf4a1ac3f3f82d504e559d02e3"
+      sha256 "0c1374118e4eb213a732b10da2f3c8d23df976bba2ab45ee2b4064760b07532a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/hefgi/ecluse/releases/download/v0.2.2/ecluse-v0.2.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1d3f4a9c8ed035e013dd5875859ace8030b16d02516986a947f5ddd450a46d5e"
+      sha256 "552e04c265ae00ed8522969383942e5d77789dfc6e86b0674d8d3bce56b5b037"
     end
     on_intel do
       url "https://github.com/hefgi/ecluse/releases/download/v0.2.2/ecluse-v0.2.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "56b2f86accb9f881ec4debd602f261edf204ce23335b9fd50f87ee738309f5fe"
+      sha256 "5823b7f553d321534402374990b876546f3ef6dfc24a2a65ba360c225b887735"
     end
   end
 
