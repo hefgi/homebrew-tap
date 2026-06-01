@@ -1,28 +1,28 @@
 class Ecluse < Formula
   desc "Ephemeral local environments for coding agents — any stack."
   homepage "https://github.com/hefgi/ecluse"
-  version "0.2.9"
+  version "0.2.10"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/hefgi/ecluse/releases/download/v0.2.9/ecluse-v0.2.9-aarch64-apple-darwin.tar.gz"
-      sha256 "2175431e381c950408ecf06e2b3d73417c931ef8fc07b376016ea0663b868756"
+      url "https://github.com/hefgi/ecluse/releases/download/v0.2.10/ecluse-v0.2.10-aarch64-apple-darwin.tar.gz"
+      sha256 "1cdba9b693d49de5d768f30777e4452c08f19d6506239b5ed5ee27b9ee38a3a2"
     end
     on_intel do
-      url "https://github.com/hefgi/ecluse/releases/download/v0.2.9/ecluse-v0.2.9-x86_64-apple-darwin.tar.gz"
-      sha256 "b294e9e2b83893f4317944fc214adefa89a713df70065ae354a18a21a4d16ecb"
+      url "https://github.com/hefgi/ecluse/releases/download/v0.2.10/ecluse-v0.2.10-x86_64-apple-darwin.tar.gz"
+      sha256 "a7347aaef2f6d217fcb8f813bbede07fccc1f60851fbbe22cca2e63322c453e3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hefgi/ecluse/releases/download/v0.2.9/ecluse-v0.2.9-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "04dffff94f4eab61c11c0d5b6c274aa906deb1dd555bfec77fa39c3577222da3"
+      url "https://github.com/hefgi/ecluse/releases/download/v0.2.10/ecluse-v0.2.10-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "422f80a2140fba8754e30791f1fd83dc3329f59ab0a052d28c39c1b854c01f94"
     end
     on_intel do
-      url "https://github.com/hefgi/ecluse/releases/download/v0.2.9/ecluse-v0.2.9-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b59c9a4706f0a3a37dabdab4f2c31bf8563e9cebe48d6de4cc8466f0da094e1b"
+      url "https://github.com/hefgi/ecluse/releases/download/v0.2.10/ecluse-v0.2.10-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f12bfef87ab27d1675495d078f8150be1fb60e2c1c4840aba281fe3af9e04a87"
     end
   end
 
